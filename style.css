@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+nav{
+    background-color: #1b242f;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    color: white;
+
+}
+#logo{
+    height: 120px;
+    margin-right: 30px;
+    padding: 20px;
+    display: flex;
+
+
+}
+.primary-linksli{
+    font-size: 20px;
+}
+.primary-links
+{
+    width: 600px;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+nav span{
+    display: flex;
+    align-items: center;
+}
+.secondary-links{
+    width: 300PX;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.secondary-links i{
+    font-size: 35px;
+}
+
+
+.try-btn{
+    padding: 10px 20px;
+    background-color: #0f79af;
+    color:#fff;
+    border: none;
+    border-radius: 2px;
+}
+.hero-section{
+  height: 100vh;
+  background-color:black;
+  color:#fff;
+  display: flex;
+}
+.text-section{
+    padding: 80px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.text-section h1{
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.text-section h3{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.join-btn{
+    background-color: #0f79af;
+    padding: 10px 50px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.image-section{
+    width: 50%;
+    height: 100%;
+    background-image: url("./hero_image.jpg");
+    background-color: black;
+}
+.hero-section-two{
+    background-color: black;
+    
+}
+.image-section-two{
+
+    background-image: url("./hero_image_two.jpg");
+    background-color: black;
+}
+.Channel-section{
+    height: 100vh;
+    background-color:white;
+    /* font-size: 100px; */
+    display: flex;
+    /* width: 50%; */
+    
+}
+.Channel-text{
+    width: 45%;
+    padding: 40px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    /* height: 100%; */
+    /* font-size: 50px; */
+    /* padding: 50px; */
+}
+.Channel-text h1{
+    font-size: 45px;
+    font-weight: lighter;
+    
+    
+    /* margin-bottom: 20px; */
+}
+.Channel-text h3{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.channel-blocks{
+    width: 55%;
+    /* height: 100%; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* padding: 10px 30px; */
+}
+.Channel-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    height: 90%;
+
+    /* padding: 20px; */
+    
+}
+.icon-1{
+    height: 120px;
+    width: 200px;
+    /* background-color: #0898d2; */
+    background-image: url(./img-1.jpg);
+    transition: all ease-in-out 0.5s;
+    background-size: cover;
+    
+}
+.icon-2{
+   height: 120px;
+    width: 200px;
+    /* background-color: #0898d2; */
+    background-image: url(./img-2.jpg);
+    background-size: cover;
+}
+.icon-3{
+    height: 120px;
+     width: 200px;
+     background-color: #0898d2;
+     background-image: url(./img-3.jpg);
+     background-size: cover;
+ }
+ .icon-4{
+    height: 120px;
+     width: 200px;
+     background-color: #0898d2;
+     background-image: url(./img-4.jpg);
+     background-size: cover;
+ }
+ .icon-5{
+    height: 120px;
+     width: 200px;
+     background-color: #0898d2;
+     background-image: url(./img-5.jpg);
+     background-size: cover;
+ }
+ .icon-6{
+    height: 120px;
+     width: 200px;
+     background-color: #0898d2;
+     background-image: url(./img-6.png);
+     background-size: cover;
+ }
+ .icon-7{
+    height: 120px;
+     width: 200px;
+     background-color: #0898d2;
+     background-image: url(./img-7.png);
+     background-size: cover;
+ }
+ .icon-8{
+    height: 120px;
+     width: 200px;
+     background-color: #0898d2;
+     background-image: url(./img-8.jpg);
+     background-size: cover;
+ }
+ .icon-9{
+    height: 120px;
+     width: 200px;
+     background-color: #0898d2;
+     background-image: url(./img-9.jpg);
+     background-size: cover;
+ }
+ .icon-10{
+    height: 120px;
+     width: 200px;
+     background-color: #0898d2;
+     background-image: url(./img-10.png);
+     background-size: cover;
+ }
+ .icon-11{
+    height: 120px;
+     width: 200px;
+     background-color: #0898d2;
+     background-image: url(./img-11.png);
+     background-size: cover;
+ }
+ .icon-12{
+    height: 120px;
+     width: 200px;
+     background-color: #0898d2;
+     background-image: url(./img-12.jpg);
+     background-size: cover;
+ }
+ .icon-1:hover{
+    box-shadow: 10px 10px 34px 10px rgba(0,0,0,0.75);
+ }
+ .icon-2:hover{
+    box-shadow: 10px 10px 34px 10px rgba(0,0,0,0.75);
+ }
+ .icon-3:hover{
+    box-shadow: 10px 10px 34px 10px rgba(0,0,0,0.75);
+ }
+ .icon-4:hover{
+    box-shadow: 10px 10px 34px 10px rgba(0,0,0,0.75);
+ }
+ .icon-5:hover{
+    box-shadow: 10px 10px 34px 10px rgba(0,0,0,0.75);
+ }
+ .icon-6:hover{
+    box-shadow: 10px 10px 34px 10px rgba(0,0,0,0.75);
+ }
+ .icon-7:hover{
+    box-shadow: 10px 10px 34px 10px rgba(0,0,0,0.75);
+ }
+ .icon-8:hover{
+    box-shadow: 10px 10px 34px 10px rgba(0,0,0,0.75);
+ }
+ .icon-9:hover{
+    box-shadow: 10px 10px 34px 10px rgba(0,0,0,0.75);
+ }
+ .icon-10:hover{
+    box-shadow: 10px 10px 34px 10px rgba(0,0,0,0.75);
+ }
+ .icon-11:hover{
+    box-shadow: 10px 10px 34px 10px rgba(0,0,0,0.75);
+ }
+ .icon-12:hover{
+    box-shadow: 10px 10px 34px 10px rgba(0,0,0,0.75);
+ }
+.remote-section{
+    height: 90vh;
+    background-image: url(./remoteimg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.remote-text-section{
+    color: #fff;
+    width: 50%;
+    height: 60%;
+    float: right;
+    padding: 50px;
+}
+.remote-text-section h1{
+    font-size: 35px;
+}
+.remote-text-section h3{
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 300;
+}
+.remote-text-section button{
+    padding: 15px 90px;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: #0898d2;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+
+.family-section{
+    padding: 20px;
+    background-color: rgb(109,95,95);
+    display: flex;
+}
+.family-text-section{
+    height: 80vh;
+    padding: 20px;
+    margin: -20px -20px;
+    background-color: black;
+    color: #fff;
+}
+.family-text-section h1{
+    font-style: 35px;
+}
+.family-text-section h3{
+    font-style: 18px;
+    padding-top: 20px;
+    font-weight: 250;
+}
+.family-text-section button{
+    padding: 15px 90px;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: #0898d2;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+.family-image-section{
+    display: flex;
+    width: 150%;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-right: -20px;
+    background-image: url(./pokimonimg.jpg);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+}
+.logo-two{
+    height: 33px;
+    margin-top: 25px;
+    justify-content: center;
+    margin-left: 582px;
+}
+.fotr a{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+.fotr span{
+    display: flex;
+    
+}
+.fotr span a{
+    margin-left: 20px;
+    color: rgb(42,78,177);
+    font-size: 12px;
+}
+
+.fotr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}
+.lll{
+    background-color: #1b242f;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
